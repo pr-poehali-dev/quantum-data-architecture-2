@@ -7,7 +7,7 @@ const values = [
   { title: "Безопасность", description: "Полная юридическая проверка объекта до подписания любых документов" },
   { title: "Результат", description: "Находим объект, который подходит именно вам — по цене, расположению и целям" },
   { title: "Поддержка", description: "Сопровождаем сделку от первого звонка до получения ключей и после" },
-  { title: "Сеть «АЯКС»", description: "Второй офис в Анапе — часть крупнейшей сети агентств Краснодарского края" },
+  { title: "Сеть «аякс»", description: "Второй офис в Анапе — часть крупнейшей сети агентств Краснодарского края" },
 ]
 
 const stats = [
@@ -30,7 +30,7 @@ export function AboutSection() {
             О нас
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            АЯКС на берегу —{" "}
+            <span className="text-red-600">аякс</span> на берегу —{" "}
             <span className="text-primary relative">
               ваш проводник
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
@@ -39,7 +39,7 @@ export function AboutSection() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Мы — офис продаж агентства недвижимости «АЯКС» в Анапе. Помогаем найти квартиру, дом или апартаменты у моря — для жизни, отдыха или инвестиций.
+            Мы — офис продаж агентства недвижимости «<span className="text-red-600">аякс</span>» в Анапе. Помогаем найти квартиру, дом или апартаменты у моря — для жизни, отдыха или инвестиций.
           </p>
         </div>
 
