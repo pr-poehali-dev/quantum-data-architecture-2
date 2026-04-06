@@ -145,7 +145,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-sm text-muted-foreground">+7 861 000-00-00</p>
+                    <p className="text-sm text-muted-foreground">8 906 187 60 57</p>
                   </div>
                 </div>
               </CardContent>
