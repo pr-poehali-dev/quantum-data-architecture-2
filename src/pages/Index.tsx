@@ -1,7 +1,5 @@
 import { Navbar } from "@/components/Navbar"
 import { HeroSection } from "@/components/HeroSection"
-import { PanoramaSection } from "@/components/PanoramaSection"
-import { OfficeSection } from "@/components/OfficeSection"
 import { ServicesSection } from "@/components/ServicesSection"
 import { AboutSection } from "@/components/AboutSection"
 import { ProcessSection } from "@/components/ProcessSection"
@@ -16,9 +14,7 @@ export default function Index() {
     <main className="min-h-screen">
       <Navbar />
       <HeroSection />
-      <PanoramaSection />
       <ServicesSection />
-
       <AboutSection />
       <ProcessSection />
       <TestimonialsSection />
