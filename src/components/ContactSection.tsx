@@ -165,6 +165,8 @@ export function ContactSection() {
                       Пн–Пт: 9:00 — 18:00
                       <br />
                       Сб: 10:00 — 16:00
+                      <br />
+                      Вс: выходной
                     </p>
                   </div>
                 </div>
