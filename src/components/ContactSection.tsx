@@ -162,7 +162,9 @@ export function ContactSection() {
                     <p className="text-sm text-muted-foreground">
                       Краснодарский край, г. Анапа, пр. Революции, 3
                       <br />
-                      Пн–Вс: 9:00 — 20:00
+                      Пн–Пт: 9:00 — 18:00
+                      <br />
+                      Сб: 10:00 — 16:00
                     </p>
                   </div>
                 </div>
