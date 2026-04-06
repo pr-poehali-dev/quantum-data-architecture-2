@@ -5,23 +5,23 @@ import { Fragment } from "react"
 const steps = [
   {
     icon: Lightbulb,
-    title: "Концепция и планирование",
+    title: "Заявка и консультация",
     description:
-      "Вместе обсуждаем вашу идею, цели и видение сайта. Разрабатываем четкий план, соответствующий вашим пожеланиям, с правильной структурой и функциональностью.",
+      "Оставляете заявку или звоните нам. Менеджер уточняет ваши пожелания, бюджет и сроки — и уже на первом звонке предлагает подходящие варианты.",
     number: "01",
   },
   {
     icon: PaletteIcon,
-    title: "Разработка и дизайн",
+    title: "Показ объектов",
     description:
-      "Наши разработчики и дизайнеры приступают к созданию сайта. Фокусируемся на стильном дизайне, удобном для пользователей и технически безупречном.",
+      "Организуем просмотр выбранных объектов. Расскажем про инфраструктуру, застройщика и нюансы района — поможем принять взвешенное решение.",
     number: "02",
   },
   {
     icon: Rocket,
-    title: "Тестирование и запуск",
+    title: "Сделка и ключи",
     description:
-      "Тщательно тестируем сайт для обеспечения оптимальной производительности. После вашего одобрения запускаем проект и остаемся на связи для поддержки.",
+      "Сопровождаем весь процесс оформления: ипотека, договор, регистрация права собственности. Вы получаете ключи — мы остаёмся на связи.",
     number: "03",
   },
 ]
@@ -34,13 +34,13 @@ export function ProcessSection() {
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
-            Наш процесс
+            Как мы работаем
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            От <span className="text-primary">идеи</span> к <span className="text-primary">результату</span>
+            От <span className="text-primary">заявки</span> до <span className="text-primary">ключей</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            В три простых шага превращаем вашу идею в мощное онлайн-присутствие, приносящее результат.
+            Три простых шага — и вы уже владелец недвижимости у моря. Берём на себя все сложности.
           </p>
         </div>
 

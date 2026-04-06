@@ -4,39 +4,38 @@ import { QuoteFormDialog } from "@/components/QuoteFormDialog"
 
 const pricingTiers = [
   {
-    name: "Базовый",
-    price: "99 900",
+    name: "Квартира",
+    price: "от 3,2 млн",
     features: [
-      "До 5 страниц",
-      "Адаптивный дизайн",
-      "Базовая SEO-оптимизация",
-      "Форма обратной связи",
-      "1 месяц поддержки",
+      "Студии и 1-комнатные",
+      "Новостройки и вторичка",
+      "Помощь с ипотекой",
+      "Юридическое сопровождение",
+      "Осмотр объектов",
     ],
     highlighted: false,
   },
   {
-    name: "Про",
-    price: "249 900",
+    name: "У моря",
+    price: "от 5,5 млн",
     features: [
-      "До 15 страниц",
-      "Премиум-дизайн",
-      "Расширенная SEO-оптимизация",
-      "Интеграция CMS",
-      "Функционал e-commerce",
-      "3 месяца поддержки",
+      "Квартиры с видом на море",
+      "Апартаменты у воды",
+      "Подбор под инвестиции",
+      "Управление арендой",
+      "Персональный менеджер",
     ],
     highlighted: true,
   },
   {
-    name: "Индивидуальный",
+    name: "Дом / Таунхаус",
     price: "По запросу",
     features: [
-      "Неограниченно страниц",
-      "Кастомный функционал",
-      "API-интеграции",
-      "Персональный менеджер",
-      "6 месяцев поддержки",
+      "Частные дома и коттеджи",
+      "Таунхаусы в ЖК",
+      "Земельные участки",
+      "Trade-in вашего жилья",
+      "Полное сопровождение",
     ],
     highlighted: false,
   },
@@ -60,10 +59,10 @@ export function PricingSection() {
             Прозрачные цены
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
-            Выберите <span className="text-primary">идеальный тариф</span> для вашего проекта
+            Найдём объект <span className="text-primary">под ваш бюджет</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            От стартапов до крупного бизнеса — у нас есть подходящее решение
+            Квартиры, апартаменты и дома в Анапе — на любой бюджет и задачу
           </p>
         </div>
 
@@ -90,8 +89,7 @@ export function PricingSection() {
                       <span className="text-3xl">{tier.price}</span>
                     ) : (
                       <>
-                        <span className="text-lg font-normal text-muted-foreground">от </span>
-                        {tier.price}
+                        <span className="text-3xl">{tier.price}</span>
                         <span className="text-lg font-normal text-muted-foreground"> ₽</span>
                       </>
                     )}
@@ -112,7 +110,7 @@ export function PricingSection() {
                   variant={tier.highlighted ? "default" : "outline"}
                   className={`w-full ${tier.highlighted ? "shadow-lg shadow-primary/20" : ""}`}
                 >
-                  {tier.price === "По запросу" ? "Связаться с нами" : "Выбрать тариф"}
+                  {tier.price === "По запросу" ? "Получить консультацию" : "Подобрать объект"}
                 </QuoteFormDialog>
               </CardContent>
             </Card>
@@ -121,8 +119,8 @@ export function PricingSection() {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            Все тарифы включают <span className="text-primary font-semibold">бесплатную настройку хостинга</span> и{" "}
-            <span className="text-primary font-semibold">SSL-сертификат</span>
+            Консультация по любому объекту — <span className="text-primary font-semibold">бесплатно</span> и{" "}
+            <span className="text-primary font-semibold">без обязательств</span>
           </p>
         </div>
       </div>

@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "ЖК «Солнечный берег»",
+    category: "Новостройка · Анапа",
+    image: "/placeholder.jpg",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Современный жилой комплекс в 500 метрах от моря. Квартиры от 35 до 120 м² с панорамным остеклением и видом на Чёрное море. Сдача — 2025 год.",
+    url: "#contact",
+    tags: ["Новостройка", "У моря", "Ипотека", "от 4,5 млн ₽"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Апартаменты «Бухта»",
+    category: "Апарт-комплекс · Анапа",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Апартаменты в апарт-комплексе с собственным пляжем. Идеально для инвестиций — управляющая компания обеспечивает загрузку от 80% в сезон.",
+    url: "#contact",
+    tags: ["Апартаменты", "Инвестиции", "Свой пляж", "от 3,2 млн ₽"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Таунхаусы «Виноградная»",
+    category: "Таунхаусы · Анапский район",
+    image: "/placeholder.jpg",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Двухэтажные таунхаусы с собственным двориком в тихом районе Анапы. 5 минут до моря, развитая инфраструктура, закрытая охраняемая территория.",
+    url: "#contact",
+    tags: ["Таунхаус", "Свой двор", "Закрытый ЖК", "от 7,8 млн ₽"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Квартиры «Парусный»",
+    category: "Вторичное жильё · Анапа",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Готовые квартиры в проверенном доме в центре Анапы. Полная юридическая чистота, возможна ипотека и trade-in. Переезд — в течение 30 дней.",
+    url: "#contact",
+    tags: ["Вторичка", "Центр", "Готово к сделке", "от 5,1 млн ₽"],
   },
 ]
 
@@ -46,9 +46,9 @@ export function PortfolioSection() {
     <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Актуальные объекты</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Подборка интересных объектов в Анапе — от квартир у моря до инвестиционных апартаментов. Свяжитесь с нами, чтобы узнать детали и записаться на просмотр.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export function PortfolioSection() {
                     className="gap-2"
                     onClick={() => window.open(project.url, "_blank")}
                   >
-                    Открыть проект <ExternalLink className="h-4 w-4" />
+                    Узнать подробнее <ExternalLink className="h-4 w-4" />
                   </Button>
                 </div>
               </div>

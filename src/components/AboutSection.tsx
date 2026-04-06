@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "Честность", description: "Работаем прозрачно: реальные цены, честные условия, никаких скрытых платежей" },
+  { title: "Экспертиза", description: "30 лет на рынке Краснодарского края — знаем каждый район Анапы" },
+  { title: "Безопасность", description: "Полная юридическая проверка объекта до подписания любых документов" },
+  { title: "Результат", description: "Находим объект, который подходит именно вам — по цене, расположению и целям" },
+  { title: "Поддержка", description: "Сопровождаем сделку от первого звонка до получения ключей и после" },
+  { title: "Сеть «Аякс»", description: "Второй офис в Анапе — часть крупнейшей сети агентств Краснодарского края" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "30+", label: "Лет на рынке" },
+  { number: "1000+", label: "Сделок в год" },
+  { number: "2", label: "Офиса в регионе" },
+  { number: "№1", label: "В Краснодарском крае" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О нас
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Аякс на берегу —{" "}
             <span className="text-primary relative">
-              впечатляет
+              ваш проводник
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Мы — офис продаж агентства недвижимости «Аякс» в Анапе. Помогаем найти квартиру, дом или апартаменты у моря — для жизни, отдыха или инвестиций.
           </p>
         </div>
 
