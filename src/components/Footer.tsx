@@ -4,12 +4,12 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-2">🏖 Аякс на берегу</h3>
+            <h3 className="text-xl font-bold mb-2">🏖 АЯКС на берегу</h3>
             <p className="text-sm text-muted-foreground leading-relaxed mb-2">
-              Офис продаж агентства недвижимости «Аякс» в Анапе.
+              Офис продаж агентства недвижимости «АЯКС» в Анапе.
             </p>
             <p className="text-sm text-muted-foreground">
-              © 2026 Аякс на берегу. Все права защищены.
+              © 2026 АЯКС на берегу. Все права защищены.
             </p>
           </div>
 
