@@ -42,7 +42,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Контакты</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>г. Анапа, ул. Набережная, 1</p>
+              <p>Краснодарский край, г. Анапа, пр. Революции, 3</p>
               <p>+7 861 000-00-00</p>
               <p>anapa@ajax-realty.ru</p>
               <p>Пн–Вс: 9:00 — 20:00</p>

@@ -160,7 +160,7 @@ export function ContactSection() {
                   <div>
                     <h3 className="font-semibold mb-1">Адрес офиса</h3>
                     <p className="text-sm text-muted-foreground">
-                      г. Анапа, ул. Набережная, 1
+                      Краснодарский край, г. Анапа, пр. Революции, 3
                       <br />
                       Пн–Вс: 9:00 — 20:00
                     </p>
